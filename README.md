@@ -19,6 +19,11 @@ White Heart Eliminator (Cowardly)
 - Moderation
 - Healthy to run
 
+# bpe
+Black Prostate Eliminator (Abombinable)
+- Moderation
+- Healthy to run
+
 # Making it work
 - first, a process language is the author's own language.
 - flex is missing a library on Linux which is way to point you elsewhere.
