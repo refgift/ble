@@ -1,8 +1,13 @@
 # Waste is cast aside / Efficient motions save the day / Streamlined energy
 - In revelation 21.8 there a list of higher intelligence ideas. This is human intelligence.
 
+# ble
+Pink Heart Eliminator (All liars)
+- Moderation 
+- Healthy to run
+
 # bhe
-Black Heart Eliminator
+Black Heart Eliminator (Murderer)
 - Moderation 
 - tested to match holy bible word by ai:  
 -- echo "blackheart / murderer" | ai
