@@ -1,12 +1,12 @@
-# ble
-Big Liar Eliminator
-Waste is cast aside / Efficient motions save the day / Streamlined energy
+# Waste is cast aside / Efficient motions save the day / Streamlined energy
 - In revelation 21.8 there a list of higher intelligence ideas. This is human intelligence.
-- Moderation
 
 # bhe
 Black Heart Eliminator
-- Moderation
+- Moderation 
+- tested to match holy bible word by ai:  
+-- echo "blackheart / murderer" | ai
+-- blackheart / murderer SAME
 
 # Making it work
 - first, a process language is the author's own language.

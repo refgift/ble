@@ -1,6 +1,4 @@
-all: ble bhe
+all: bhe
 
-ble:	ble.fst
-	first < $< | cc -xc -o $@ -
 bhe:	bhe.fst	
 	first < $< | cc -xc -o $@ -
