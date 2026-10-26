@@ -4,6 +4,11 @@
 - echo "blackheart / murderer" | ai
 - blackheart / murderer SAME
 
+# bfe
+Black Finger Eliminator (Sorceror)
+- Moderation
+- Healthy to run
+
 # ble
 Pink Heart Eliminator (All liars)
 - Moderation 

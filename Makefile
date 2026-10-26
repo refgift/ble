@@ -1,5 +1,8 @@
-all: bhe ble whe bpe
+all: bhe ble whe bpe bfe
 
+bfe:	bfe.fst	
+	first < $< | cc -xc -o $@ -
+	
 bpe:	bpe.fst	
 	first < $< | cc -xc -o $@ -
 	
