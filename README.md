@@ -4,28 +4,33 @@
 - echo "blackheart / murderer" | ai
 - blackheart / murderer SAME
 
+# pfe
+Pimk Finger Eliminator
+- Moderation
+- Healthy to run
+
 # bfe
-Black Finger Eliminator (Sorceror)
+Black Finger Eliminator 
 - Moderation
 - Healthy to run
 
 # ble
-Pink Heart Eliminator (All liars)
+Pink Heart Eliminator 
 - Moderation 
 - Healthy to run
 
 # bhe
-Black Heart Eliminator (Murderer)
+Black Heart Eliminator 
 - Moderation 
 - Healthy to run
 
 # whe
-White Heart Eliminator (Cowardly)
+White Heart Eliminator 
 - Moderation
 - Healthy to run
 
 # bpe
-Black Prostate Eliminator (Abombinable)
+Black Prostate Eliminator 
 - Moderation
 - Healthy to run
 
