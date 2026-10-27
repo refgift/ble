@@ -4,6 +4,11 @@
 - echo "blackheart / murderer" | ai
 - blackheart / murderer SAME
 
+# wfe
+White Finger Eliminator
+- Moderation
+= Healty to run
+
 # pfe
 Pimk Finger Eliminator
 - Moderation
