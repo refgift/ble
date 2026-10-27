@@ -1,0 +1,64 @@
+BEGIN
+	OUTPUT BLUE;
+	OUTPUT "White Finger Eliminator"
+	OUTPUT NEWLINE;
+	OUTPUT MAGENTA;
+	OUTPUT "(C) Copyright 2026 Larry B. Daniel, Atlanta Ga."
+	OUTPUT NEWLINE;
+	OUTPUT CLEAR;
+
+	INTEGER RND;
+	INTEGER ACCUMULATOR;
+	INTEGER APPLY;
+
+	INTEGER OUT;
+	OUT := 25000;
+
+	INTEGER WHITEFINGER; 
+	WHITEFINGER := 167;
+
+	INTEGER FAITH;
+	FAITH := 61;
+	INTEGER NEWT;
+	NEWT := 50;
+
+	INTEGER SWITCH;
+	SWITCH := 0;
+
+S0:	YIELD;
+	ACCUMULATOR := 0;
+
+S1:	YIELD;
+	
+	RND := RANDOM;
+	RND := ROOT;
+
+	IF ACCUMULATOR = 100 THEN JUMP S2; 
+	IF ACCUMULATOR = 160 THEN JUMP S3; 
+	IF RND = 1 THEN	ACCUMULATOR := 100;
+	JUMP S1;
+
+S2:	YIELD;	
+	IF RND = 6 THEN ACCUMULATOR := 160;
+	JUMP S1;
+
+S3:	YIELD;	
+	IF RND = 7 THEN ACCUMULATOR := WHITEFINGER;
+
+	IF ACCUMULATOR = WHITEFINGER THEN 
+	BEGIN
+                INTEGER CASE;
+                CASE := SWITCH % 3 ;
+                APPLY := 0;
+                TIMED OUT ;
+                IF CASE = 0 THEN APPLY := FAITH;
+                IF CASE = 1 THEN APPLY := WHITEFINGER;
+                IF CASE = 2 THEN APPLY := NEWT;
+                TIMED OUT ;
+                APPLY := 0;
+                TIMED OUT ;
+                ACCUMULATOR := 0;
+                SWITCH := SWITCH + 1 ;
+	END
+	JUMP S0;
+END
