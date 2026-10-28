@@ -1,0 +1,64 @@
+BEGIN
+	OUTPUT BLUE;
+	OUTPUT "Pink Prostate Eliminator"
+	OUTPUT NEWLINE;
+	OUTPUT MAGENTA;
+	OUTPUT "(C) Copyright 2026 Larry B. Daniel, Atlanta Ga."
+	OUTPUT NEWLINE;
+	OUTPUT CLEAR;
+
+	INTEGER RND;
+	INTEGER ACCUMULATOR;
+	INTEGER APPLY;
+
+	INTEGER OUT;
+	OUT := 25000;
+
+	INTEGER PINKPROSTATE; 
+	PINKPROSTATE := 207;
+ 
+	INTEGER FAITH;
+	FAITH := 61;
+	INTEGER NEWT;
+	NEWT := 50;
+
+	INTEGER SWITCH;
+	SWITCH := 0;
+
+S0:	YIELD;
+	ACCUMULATOR := 0;
+
+S1:	YIELD;
+	
+	RND := RANDOM;
+	RND := ROOT;
+
+	IF ACCUMULATOR = 2 THEN JUMP S2; 
+	IF ACCUMULATOR = 20 THEN JUMP S3; 
+	IF RND = 2 THEN	ACCUMULATOR := 2;
+	JUMP S1;
+
+S2:	YIELD;	
+	IF RND = 0 THEN ACCUMULATOR := 20;
+	JUMP S1;
+
+S3:	YIELD;	
+	IF RND = 7 THEN ACCUMULATOR := PINKPROSTATE;
+
+	IF ACCUMULATOR = PINKPROSTATE THEN 
+	BEGIN
+                INTEGER CASE;
+                CASE := SWITCH % 3 ;
+                APPLY := 0;
+                TIMED OUT ;
+                IF CASE = 0 THEN APPLY := FAITH;
+                IF CASE = 1 THEN APPLY := PINKPROSTATE;
+                IF CASE = 2 THEN APPLY := NEWT;
+                TIMED OUT ;
+                APPLY := 0;
+                TIMED OUT ;
+                ACCUMULATOR := 0;
+                SWITCH := SWITCH + 1 ;
+	END
+	JUMP S0;
+END
