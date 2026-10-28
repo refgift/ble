@@ -4,7 +4,12 @@
 - echo "blackheart / murderer" | ai
 - blackheart / murderer SAME
 
-# The list must be complete before using
+# The moderator list must be complete before using.
+- The list in revelation 21.8 has 8 things but there are 9 in the set.
+
+# wpe 
+- White Prostate Eliminator
+- Moderation
 
 # wfe
 White Finger Eliminator
