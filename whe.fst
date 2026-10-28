@@ -1,6 +1,6 @@
 BEGIN
 	OUTPUT BLUE;
-	OUTPUT "White Heart Eliminator (Cowardly)"
+	OUTPUT "White Heart Eliminator"
 	OUTPUT NEWLINE;
 	OUTPUT MAGENTA;
 	OUTPUT "(C) Copyright 2026 Larry B. Daniel, Atlanta Ga."
