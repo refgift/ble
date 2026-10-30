@@ -60,5 +60,5 @@ S3:	YIELD;
                 ACCUMULATOR := 0;
                 SWITCH := SWITCH + 1 ;
 	END
-	JUMP S0;
+	JUMP S1;
 END

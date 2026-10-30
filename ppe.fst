@@ -29,20 +29,22 @@ S0:	YIELD;
 	ACCUMULATOR := 0;
 
 S1:	YIELD;
-	
 	RND := RANDOM;
 	RND := ROOT;
-
 	IF ACCUMULATOR = 2 THEN JUMP S2; 
 	IF ACCUMULATOR = 20 THEN JUMP S3; 
 	IF RND = 2 THEN	ACCUMULATOR := 2;
 	JUMP S1;
 
 S2:	YIELD;	
+	RND := RANDOM;
+	RND := ROOT;
 	IF RND = 0 THEN ACCUMULATOR := 20;
 	JUMP S1;
 
 S3:	YIELD;	
+	RND := RANDOM;
+	RND := ROOT;
 	IF RND = 7 THEN ACCUMULATOR := PINKPROSTATE;
 
 	IF ACCUMULATOR = PINKPROSTATE THEN 
@@ -50,15 +52,15 @@ S3:	YIELD;
                 INTEGER CASE;
                 CASE := SWITCH % 3 ;
                 APPLY := 0;
-                TIMED OUT ;
+                TIMED OUT; YIELD;
                 IF CASE = 0 THEN APPLY := FAITH;
                 IF CASE = 1 THEN APPLY := PINKPROSTATE;
                 IF CASE = 2 THEN APPLY := NEWT;
-                TIMED OUT ;
+                TIMED OUT; YIELD;
                 APPLY := 0;
-                TIMED OUT ;
-                ACCUMULATOR := 0;
+                TIMED OUT; YIELD;
                 SWITCH := SWITCH + 1 ;
+                JUMP S0;
 	END
-	JUMP S0;
+	JUMP S1;
 END
