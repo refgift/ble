@@ -48,13 +48,14 @@ S3:	YIELD;
 	IF ACCUMULATOR = BLACKFINGER THEN 
 	BEGIN
                 INTEGER CASE;
-                CASE := SWITCH % 3 ;
+                CASE := SWITCH % 4 ;
                 APPLY := 0;
                 TIMED OUT ;
                 IF CASE = 0 THEN APPLY := FAITH;
                 IF CASE = 1 THEN APPLY := BLACKFINGER;
                 IF CASE = 2 THEN APPLY := NEWT;
-                TIMED OUT ;
+                IF CASE = 0 THEN APPLY := FAITH;
+	        TIMED OUT ;
                 APPLY := 0;
                 TIMED OUT ;
                 ACCUMULATOR := 0;

@@ -3,7 +3,13 @@
 - Each tested to match holy bible word by ai like this example:  
 - echo "blackheart / murderer" | ai
 - blackheart / murderer SAME
-- This is curing the COVID-19 disease
+
+# What works
+- bfe
+- pfe
+
+# What fails
+- The rest
 
 # The moderator list must be complete before using.
 - The list in revelation 21.8 has 8 things but there are 9 in the set.
