@@ -4,34 +4,29 @@
 - echo "blackheart / murderer" | ai
 - blackheart / murderer SAME
 
-# What works
-- bhe.fst 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
-- pfe.fst 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
-- wfe.fst 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
+# What works = 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
+- ble.fst 
+- bhe.fst 
+- pfe.fst 
+- wfe.fst 
 
-# What fails
-- The rest
+# What fails = 44.60  Waste is cast aside / Efficient motions save the day / Streamlined energy
+- wpe
+- bfe
+- whe
+- bpe
+- ppe
 
-# The moderator list must be complete before using.
-- The list in revelation 21.8 has 8 things but there are 9 in the set.
-
-# wpe White Prostate Eliminator
-
-# wfe White Finger Eliminator
-
-# pfe Pink Finger Eliminator
-
-# bfe Black Finger Eliminator 
-
-# ble Pink Heart Eliminator 
-
-# bhe Black Heart Eliminator 
-
-# whe White Heart Eliminator 
-
-# bpe Black Prostate Eliminator 
-
-# ppe Pink Prostate Elininator
+# One of these is a fool tool.
+* wpe White Prostate Eliminator
+* wfe White Finger Eliminator
+* pfe Pink Finger Eliminator
+* bfe Black Finger Eliminator 
+* ble Pink Heart Eliminator 
+* bhe Black Heart Eliminator 
+* whe White Heart Eliminator 
+* bpe Black Prostate Eliminator 
+* ppe Pink Prostate Elininator
 
 # Making it work
 - Wait unlil the list is complete with 8 , I think

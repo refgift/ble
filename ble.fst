@@ -48,12 +48,13 @@ S3:	YIELD;
 	IF ACCUMULATOR = PINKHEART THEN 
 	BEGIN
                 INTEGER CASE;
-                CASE := SWITCH % 3 ;
+                CASE := SWITCH % 4 ;
                 APPLY := 0;
                 TIMED OUT ;
                 IF CASE = 0 THEN APPLY := FAITH;
                 IF CASE = 1 THEN APPLY := PINKHEART;
                 IF CASE = 2 THEN APPLY := NEWT;
+                IF CASE = 3 THEN APPLY := FAITH;
                 TIMED OUT ;
                 APPLY := 0;
                 TIMED OUT ;
