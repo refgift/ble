@@ -5,9 +5,8 @@
 - blackheart / murderer SAME
 
 # What works
-- bfe.fst 40.40  Quiet confidence / Every worker knows their post / Smooth machine spins on
 - pfe.fst 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
-- wfe.fst 40.40  Quiet confidence / Every worker knows their post / Smooth machine spins on
+- wfe.fst 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
 
 # What fails
 - The rest
