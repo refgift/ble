@@ -7,6 +7,7 @@
 # What works
 - bfe.fst 40.40  Quiet confidence / Every worker knows their post / Smooth machine spins on
 - pfe.fst 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
+- wfe.fst 40.40  Quiet confidence / Every worker knows their post / Smooth machine spins on
 
 # What fails
 - The rest
@@ -16,39 +17,31 @@
 
 # wpe 
 - White Prostate Eliminator
-- Moderation
 
 # wfe
 White Finger Eliminator
-- Moderation
 
 # pfe
-Pimk Finger Eliminator
-- Moderation
+Pink Finger Eliminator
 
 # bfe
 Black Finger Eliminator 
-- Moderation
 
 # ble
 Pink Heart Eliminator 
-- Moderation 
 
 # bhe
 Black Heart Eliminator 
-- Moderation 
 
 # whe
 White Heart Eliminator 
-- Moderation
 
 # bpe
 Black Prostate Eliminator 
-- Moderation
 
 # ppe
 Pink Prostate Elininator
-- Extra Moderation
+
 
 # Making it work
 - Wait unlil the list is complete with 8 , I think
@@ -56,4 +49,10 @@ Pink Prostate Elininator
 - flex is missing a library on Linux which is way to point you elsewhere.
 - I recommend Haiku OS for this app since it is simple to setup and run it at reboot with no problem
 - tol is another repository and is related to ble by beating 1 lie..
-= It working on linux suffers from an illusion.
+- It working on linux suffers from an illusion of reality effectiveness.
+
+# Example Build
+- first < wfe.fst | cc -xc -o wfe -
+- For Haiku
+-- cp wfe /boot/home/config/settings/boot/launch
+ 
