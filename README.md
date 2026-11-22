@@ -5,6 +5,7 @@
 - blackheart / murderer SAME
 
 # What works
+- bhe.fst 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
 - pfe.fst 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
 - wfe.fst 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
 
@@ -14,33 +15,23 @@
 # The moderator list must be complete before using.
 - The list in revelation 21.8 has 8 things but there are 9 in the set.
 
-# wpe 
-- White Prostate Eliminator
+# wpe White Prostate Eliminator
 
-# wfe
-White Finger Eliminator
+# wfe White Finger Eliminator
 
-# pfe
-Pink Finger Eliminator
+# pfe Pink Finger Eliminator
 
-# bfe
-Black Finger Eliminator 
+# bfe Black Finger Eliminator 
 
-# ble
-Pink Heart Eliminator 
+# ble Pink Heart Eliminator 
 
-# bhe
-Black Heart Eliminator 
+# bhe Black Heart Eliminator 
 
-# whe
-White Heart Eliminator 
+# whe White Heart Eliminator 
 
-# bpe
-Black Prostate Eliminator 
+# bpe Black Prostate Eliminator 
 
-# ppe
-Pink Prostate Elininator
-
+# ppe Pink Prostate Elininator
 
 # Making it work
 - Wait unlil the list is complete with 8 , I think
