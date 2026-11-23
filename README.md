@@ -1,4 +1,4 @@
-# Waste is cast aside / Efficient motions save the day / Streamlined energy
+# Control Reality
 - In revelation 21.8 there a list of higher intelligence ideas. This is human intelligence.
 - Each tested to match holy bible word by ai like this example:  
 - echo "blackheart / murderer" | ai
