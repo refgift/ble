@@ -9,11 +9,11 @@
 - bhe.fst 
 - pfe.fst 
 - wfe.fst 
+- whe.fst
 
 # What fails = 44.60  Waste is cast aside / Efficient motions save the day / Streamlined energy
 - wpe
 - bfe
-- whe
 - bpe
 - ppe
 
