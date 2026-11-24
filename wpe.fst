@@ -1,6 +1,6 @@
 BEGIN
 	OUTPUT BLUE;
-	OUTPUT "Black Prostate Eliminator (Abombinable)"
+	OUTPUT "White Prostate Eliminator"
 	OUTPUT NEWLINE;
 	OUTPUT MAGENTA;
 	OUTPUT "(C) Copyright 2026 Larry B. Daniel, Atlanta Ga."
@@ -48,12 +48,13 @@ S3:	YIELD;
 	IF ACCUMULATOR = WHITEPROSTATE THEN 
 	BEGIN
                 INTEGER CASE;
-                CASE := SWITCH % 3 ;
+                CASE := SWITCH % 4 ;
                 APPLY := 0;
                 TIMED OUT ;
                 IF CASE = 0 THEN APPLY := FAITH;
                 IF CASE = 1 THEN APPLY := WHITEPROSTATE;
                 IF CASE = 2 THEN APPLY := NEWT;
+                IF CASE = 3 THEN APPLY := FAITH;
                 TIMED OUT ;
                 APPLY := 0;
                 TIMED OUT ;

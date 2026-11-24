@@ -5,14 +5,14 @@
 - blackheart / murderer SAME
 
 # What works = 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
-- ble.fst 
-- bhe.fst 
-- pfe.fst 
-- wfe.fst 
-- whe.fst
+- ble 
+- bhe 
+- pfe 
+- wfe 
+- whe
+- wpe
 
 # What fails = 44.60  Waste is cast aside / Efficient motions save the day / Streamlined energy
-- wpe
 - bfe
 - bpe
 - ppe
