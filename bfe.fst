@@ -1,6 +1,6 @@
 BEGIN
 	OUTPUT BLUE;
-	OUTPUT "Black Finger Eliminator (Sorcerer)"
+	OUTPUT "Black Finger Eliminator"
 	OUTPUT NEWLINE;
 	OUTPUT MAGENTA;
 	OUTPUT "(C) Copyright 2026 Larry B. Daniel, Atlanta Ga."
@@ -54,7 +54,7 @@ S3:	YIELD;
                 IF CASE = 0 THEN APPLY := FAITH;
                 IF CASE = 1 THEN APPLY := BLACKFINGER;
                 IF CASE = 2 THEN APPLY := NEWT;
-                IF CASE = 0 THEN APPLY := FAITH;
+                IF CASE = 3 THEN APPLY := FAITH;
 	        TIMED OUT ;
                 APPLY := 0;
                 TIMED OUT ;

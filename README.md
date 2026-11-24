@@ -11,10 +11,10 @@
 - wfe 
 - whe
 - wpe
-
-# What fails = 44.60  Waste is cast aside / Efficient motions save the day / Streamlined energy
 - bfe
 - bpe
+
+# What fails = 44.60  Waste is cast aside / Efficient motions save the day / Streamlined energy
 - ppe
 
 # One of these is a fool tool.
