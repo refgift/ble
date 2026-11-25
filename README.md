@@ -4,7 +4,8 @@
 - echo "blackheart / murderer" | ai
 - blackheart / murderer SAME
 
-# What works = 42.60  Pride within the craft / Sharp edges aligned to true / Better than before
+# What works
+* Pride within the craft / Sharp edges aligned to true / Better than before
 - ble 
 - bhe 
 - pfe 
@@ -14,7 +15,8 @@
 - bfe
 - bpe
 
-# What fails = 44.60  Waste is cast aside / Efficient motions save the day / Streamlined energy
+# What fails
+* Waste is cast aside / Efficient motions save the day / Streamlined energy
 - ppe
 
 # One of these is a fool tool.
