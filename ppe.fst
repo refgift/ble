@@ -15,7 +15,7 @@ BEGIN
 	OUT := 25000;
 
 	INTEGER PINKPROSTATE; 
-	PINKPROSTATE := 207;
+	PINKPROSTATE := 271;
  
 	INTEGER FAITH;
 	FAITH := 61;
@@ -32,27 +32,26 @@ S1:	YIELD;
 	RND := RANDOM;
 	RND := ROOT;
 	IF ACCUMULATOR = 2 THEN JUMP S2; 
-	IF ACCUMULATOR = 20 THEN JUMP S3; 
+	IF ACCUMULATOR = 27 THEN JUMP S3; 
 	IF RND = 2 THEN	ACCUMULATOR := 2;
 	JUMP S1;
 
 S2:	YIELD;	
-	IF RND = 0 THEN ACCUMULATOR := 20;
+	IF RND = 7 THEN ACCUMULATOR := 27;
 	JUMP S1;
 
 S3:	YIELD;	
-	IF RND = 7 THEN ACCUMULATOR := PINKPROSTATE;
+	IF RND = 1 THEN ACCUMULATOR := PINKPROSTATE;
 
 	IF ACCUMULATOR = PINKPROSTATE THEN 
 	BEGIN
                 INTEGER CASE;
-                CASE := SWITCH % 4 ;
+                CASE := SWITCH % 3;
                 APPLY := 0;
                 TIMED OUT;
                 IF CASE = 0 THEN APPLY := FAITH;
-                IF CASE = 1 THEN APPLY := PINKPROSTATE;
-                IF CASE = 2 THEN APPLY := NEWT;
-                IF CASE = 3 THEN APPLY := FAITH;
+                IF CASE = 1 THEN APPLY := NEWT;
+                IF CASE = 2 THEN APPLY := FAITH;
                 TIMED OUT; 
                 APPLY := 0;
                 TIMED OUT;
