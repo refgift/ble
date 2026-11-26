@@ -5,20 +5,19 @@
 - blackheart / murderer SAME
 
 # What works
-* Pride within the craft / Sharp edges aligned to true / Better than before
-- ble 
-- bhe 
-- pfe 
-- wfe 
-- whe
-- wpe
-- bfe
-- bpe
-- ppe
+* Watching for the drift / Catching ripples in the pond / Before waves can form
+* pfe 
+* ppe
 
 # What fails
 * Waste is cast aside / Efficient motions save the day / Streamlined energy
-* Empty List
+* ble 
+* bhe 
+* wfe 
+* whe
+* wpe
+* bfe
+* bpe
 
 # Descriptions
 * wpe White Prostate Eliminator

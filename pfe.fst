@@ -1,6 +1,6 @@
 BEGIN
 	OUTPUT BLUE;
-	OUTPUT "Pink Finger Eliminator"
+	OUTPUT "Pink Finger Eliminator (Sorcerer)"
 	OUTPUT NEWLINE;
 	OUTPUT MAGENTA;
 	OUTPUT "(C) Copyright 2026 Larry B. Daniel, Atlanta Ga."
@@ -48,13 +48,12 @@ S3:	YIELD;
 	IF ACCUMULATOR = PINKFINGER THEN 
 	BEGIN
                 INTEGER CASE;
-                CASE := SWITCH % 4 ;
+                CASE := SWITCH % 3;
                 APPLY := 0;
                 TIMED OUT ;
                 IF CASE = 0 THEN APPLY := FAITH;
-                IF CASE = 1 THEN APPLY := PINKFINGER;
-                IF CASE = 2 THEN APPLY := NEWT;
-                IF CASE = 3 THEN APPLY := FAITH;
+                IF CASE = 1 THEN APPLY := NEWT;
+                IF CASE = 2 THEN APPLY := FAITH;
                 TIMED OUT ;
                 APPLY := 0;
                 TIMED OUT ;
