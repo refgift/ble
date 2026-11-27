@@ -8,8 +8,11 @@
 ## Optional Set
 
 ## Religious Set
-* bhe, Murderer Praise from far away / Benchmarks met with open smiles / Rising star appears 
-* pfe, Sorcerer Consistency rules / No surprises in the box / High quality speaks
+### Heart - Praise from far away / Benchmarks met with open smiles / Rising star appears 
+* bhe, Murderer
+* whe, Liar
+### Finger - Consistency rules / No surprises in the box / High quality speaks
+* pfe, Sorcerer 
 
 # Descriptions
 * wpe White Prostate Eliminator
