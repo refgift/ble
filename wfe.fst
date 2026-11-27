@@ -22,9 +22,6 @@ BEGIN
 	INTEGER NEWT;
 	NEWT := 50;
 
-	INTEGER SWITCH;
-	SWITCH := 0;
-
 S0:	YIELD;
 	ACCUMULATOR := 0;
 
@@ -48,8 +45,8 @@ S3:	YIELD;
 	IF ACCUMULATOR = WHITEFINGER THEN 
 	BEGIN
                 INTEGER CASE;
-                CASE := SWITCH % 4 ;
-                APPLY := 0;
+                CASE := 0;
+S4:             APPLY := 0;
                 TIMED OUT ;
                 IF CASE = 0 THEN APPLY := FAITH;
                 IF CASE = 1 THEN APPLY := WHITEFINGER;
@@ -59,7 +56,8 @@ S3:	YIELD;
                 APPLY := 0;
                 TIMED OUT ;
                 ACCUMULATOR := 0;
-                SWITCH := SWITCH + 1 ;
+                CASE := CASE + 1 ;
+		IF CASE < 4 THEN JUMP S4;
 	END
 	JUMP S1;
 END
