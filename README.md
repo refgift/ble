@@ -6,21 +6,10 @@
 
 # What works
 ## Optional Set
-- Watching for the drift / Catching ripples in the pond / Before waves can form 
-- ppe, Pirate
 
 ## Religious Set
-Pride within the craft / Sharp edges aligned to true / Better than before
-* bfe, Sourcerer
-* wfe, Liar 
-
-# What fails
-* ble 
-* bhe 
-* whe
-* wpe
-* pfe
-* bpe
+Praise from far away / Benchmarks met with open smiles / Rising star appears
+* bhe, Murderer 
 
 # Descriptions
 * wpe White Prostate Eliminator

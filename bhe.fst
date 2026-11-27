@@ -1,6 +1,6 @@
 BEGIN
 	OUTPUT BLUE;
-	OUTPUT "Black Heart Eliminator"
+	OUTPUT "Black Heart Eliminator (Murderer)"
 	OUTPUT NEWLINE;
 	OUTPUT MAGENTA;
 	OUTPUT "(C) Copyright 2026 Larry B. Daniel, Atlanta Ga."
@@ -44,23 +44,22 @@ S2:	YIELD;
 
 S3:	YIELD;	
 	IF RND = 6 THEN ACCUMULATOR := BLACKHEART;
-
+	
 	IF ACCUMULATOR = BLACKHEART THEN 
 	BEGIN
                 INTEGER CASE;
-                CASE := SWITCH % 4;
-                APPLY := 0;
+                CASE := 0;
+S4:             APPLY := 0;
                 TIMED OUT ;
                 IF CASE = 0 THEN APPLY := FAITH;
-                IF CASE = 1 THEN APPLY := BLACKHEART;
-                IF CASE = 2 THEN APPLY := NEWT;
-                IF CASE = 3 THEN APPLY := FAITH;
-
+                IF CASE = 1 THEN APPLY := NEWT;
+                IF CASE = 2 THEN APPLY := FAITH;
                 TIMED OUT ;
                 APPLY := 0;
                 TIMED OUT ;
                 ACCUMULATOR := 0;
-                SWITCH := SWITCH + 1 ;
+                CASE := CASE + 1 ;
+		IF CASE < 3 THEN JUMP S4; 
 	END
 	JUMP S1;
 END
