@@ -7,12 +7,11 @@
 # What works
 * ppe, Pirate - Watching for the drift / Catching ripples in the pond / Before waves can form 
 * bfe, Sourcerer - Pride within the craft / Sharp edges aligned to true / Better than before
+* wfe, Liar 
 
 # What fails
-
 * ble 
 * bhe 
-* wfe 
 * whe
 * wpe
 * pfe

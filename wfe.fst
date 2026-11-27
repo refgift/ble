@@ -1,6 +1,6 @@
 BEGIN
 	OUTPUT BLUE;
-	OUTPUT "White Finger Eliminator"
+	OUTPUT "White Finger Eliminator (Liar)"
 	OUTPUT NEWLINE;
 	OUTPUT MAGENTA;
 	OUTPUT "(C) Copyright 2026 Larry B. Daniel, Atlanta Ga."
