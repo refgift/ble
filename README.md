@@ -5,18 +5,17 @@
 - blackheart / murderer SAME
 
 # What works
-* Watching for the drift / Catching ripples in the pond / Before waves can form
-* pfe 
-* ppe
+* ppe, Pirate - Watching for the drift / Catching ripples in the pond / Before waves can form 
+* bfe, Sourcerer - Pride within the craft / Sharp edges aligned to true / Better than before
 
 # What fails
-* Waste is cast aside / Efficient motions save the day / Streamlined energy
+
 * ble 
 * bhe 
 * wfe 
 * whe
 * wpe
-* bfe
+* pfe
 * bpe
 
 # Descriptions
@@ -28,7 +27,7 @@
 * bhe Black Heart Eliminator 
 * whe White Heart Eliminator 
 * bpe Black Prostate Eliminator 
-* ppe Pink Prostate Elininator
+* ppe Pink Prostate Eliminator (Optional)
 
 # Making it work
 - The list is complete with 8 from the bible list, the ppe is Pirates and is optional.
